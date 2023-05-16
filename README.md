@@ -3,7 +3,7 @@
 
 In this project we practiced building an ETL pipeline using Python, Pandas, and regular expressions to extract and transform data about crowdfunding, categories, subcategories, and contacts. Each dataset came with it's own unique set of challenges; some had data that merely needed transforming into a useable format, others required more work and data extraction. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema using QuickDBD. Finally, we uploaded the CSV file data into a Postgres database.
 
-The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.csv", and "subcategory.csv". These CSV's can be found in the file named Started_Files. 
+The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.csv", and "subcategory.csv". These CSV's can be found in the file named Produced_CSVs. The completed Jupyter Notebook with all Python code can be found under the name "Project2 (Final)". In the folder SQL Database, you can find our crowdfunding database under the name "crowdfunding_db_schema.sql", as well as our relationship diagram under the name "ERD.pdf". The files we were given and that which are referenced below are contained in the folder Starter_Files. 
 
 ##  **Step 1: Create Category & Subcategory Dataframes**
 1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
