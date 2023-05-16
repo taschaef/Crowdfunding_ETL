@@ -53,7 +53,7 @@ The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.cs
 
 	- The "backers_count" column
 
-	 -The "country" column
+	- The "country" column
 
 	- The "currency" column
 
