@@ -65,7 +65,7 @@ The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.cs
 
 	- The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" 	column of the subcategory DataFrame
 
-	-The following image shows this campaign DataFrame:
+	- The following image shows this campaign DataFrame:
   ![crowdfunding_df](https://github.com/taschaef/Crowdfunding_ETL/assets/124079708/18b4eeab-f2a5-4a90-8ba7-9d1837ccba16)
 
   
