@@ -1,11 +1,11 @@
-# H1 **Project 2: ETL Mini-Project**
+#  **Project 2: ETL Mini-Project**
 *For this project, we worked together with our group from Project 1. Members include Ryan Cole, Talon Mehta, Taylor Schaeffer, Craig Hunter, and Kenneth Morrow.*
 
 In this project we practiced building an ETL pipeline using Python, Pandas, and regular expressions to extract and transform data about crowdfunding, categories, subcategories, and contacts. Each dataset came with it's own unique set of challenges; some had data that merely needed transforming into a useable format, others required more work and data extraction. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema using QuickDBD. Finally, we uploaded the CSV file data into a Postgres database.
 
 The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.csv", and "subcategory.csv". These CSV's can be found in the file named Started_Files. 
 
-## H2 **Step 1: Create Category & Subcategory Dataframes**
+##  **Step 1: Create Category & Subcategory Dataframes**
 1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 
 	- A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of 	unique categories
@@ -33,7 +33,7 @@ The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.cs
 
 
 
-### H3 **Step 2: Create the Campaign DataFrame**
+##  **Step 2: Create the Campaign DataFrame**
 
 1. Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
 
@@ -73,7 +73,7 @@ The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.cs
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
 
-#### H4 **Step 3: Create the Contacts DataFrame**
+## **Step 3: Create the Contacts DataFrame**
 
 1. We chose to use regular expressions to extract and transform the data from the contacts.xlsx Excel data
 
@@ -95,7 +95,7 @@ The four CSV files produced are "campaign.csv", "category.csv", "new_contacts.cs
 ![contacts_df](https://github.com/taschaef/Crowdfunding_ETL/assets/124079708/b703cca3-3570-45b1-ada5-62c6cf596f18)
 
  
-##### H5 **Step 4: Create the Crowdfunding Database**
+## **Step 4: Create the Crowdfunding Database**
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBD.
 
 2. Use the information from the ERD to create a table schema for each CSV file.
